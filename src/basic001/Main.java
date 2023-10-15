@@ -1,5 +1,7 @@
 package basic001;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,6 +9,6 @@ public class Main {
         Student st2 = new Student("저팔계", "4843");
         Student st3 = new Student("사오정", "5976");
 
-
+        ArrayList <S
     }
 }
