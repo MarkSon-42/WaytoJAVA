@@ -9,6 +9,14 @@ public class Main {
         Student st2 = new Student("저팔계", "4843");
         Student st3 = new Student("사오정", "5976");
 
-        ArrayList <S
+        ArrayList <Student>list = new ArrayList<Student>();
+
+        list.add(st1);
+        list.add(st2);
+        list.add(st3);
+
+        for (Student stu: list) {
+
+        }
     }
 }
