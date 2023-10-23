@@ -14,10 +14,10 @@ class Ex6_1 {
     // t = new Tv();
     // -> Tv 인스턴스를 생성한 후, 생성된 Tv 인스턴스의 주소를 t에 저장
     public static void main(String args[]) {
-        Tv t;                 // Tv�ν��Ͻ��� �����ϱ� ���� ���� t�� ����
-        t = new Tv();         // Tv�ν��Ͻ��� �����Ѵ�.
-        t.channel = 7;        // Tv�ν��Ͻ��� ������� channel�� ���� 7�� �Ѵ�.
-        t.channelDown();      // Tv�ν��Ͻ��� �޼��� channelDown()�� ȣ���Ѵ�.
+        Tv t;
+        t = new Tv();
+        t.channel = 7;
+        t.channelDown();
         System.out.println("���� ä���� " + t.channel + " �Դϴ�.");
     }
 }
