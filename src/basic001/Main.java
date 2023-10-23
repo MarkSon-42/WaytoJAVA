@@ -1,6 +1,7 @@
 package basic001;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +17,16 @@ public class Main {
         list.add(st3);
 
         for (Student stu: list) {
-
+            System.out.println(stu.getName());
+            System.out.println(stu.getNo());
         }
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("계속 검색을 하고싶으면 y, 종료하고 싶으면 n");
+
+        String input = scan.next();
+
+        System.out.println("종료되었습니다.");
     }
 }
